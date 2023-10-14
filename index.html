@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gallery.css">
+
+    <title>Multimídia</title>
+</head>
+
+<body>
+    <div class="interface">
+        <div class="logo">
+            <a href="file:///C:/Users/crist/Desktop/site/index.html#">
+                <img src="imagens/logo-cidadania-primary2-1.png" alt="Logo do Cidadania">
+            </a>
+        </div><!-- logo-->
+    </div>
+
+    <div class="txt-animado" >
+        <center>
+            Galeria<span></span>  
+        </center>
+       
+    </div>
+
+
+    <section class="galeria">
+        <img src="imagens/agenda01.jpg" alt="#" onclick="mostrarImagem(this)">
+        <img src="imagens/agenda02.jpg" alt="#" onclick="mostrarImagem(this)">
+        <img src="imagens/agenda04.jpg" alt="#" onclick="mostrarImagem(this)">
+        <img src="imagens/agenda05.jpg" alt="#" onclick="mostrarImagem(this)">
+        <img src="imagens/agenda06.jpg" alt="#" onclick="mostrarImagem(this)">
+        <img src="imagens/agenda07.jpg" alt="#" onclick="mostrarImagem(this)">
+
+    </section>
+
+    <section class="container">
+        <span onclick="this.parentElement.style.display='none'" class="btnFechar">&times;</span>
+        <img id="imagemGrande">
+    </section>
+
+    <script type="text/javascript" src="scripts.js"></script>
+
+
+</body>
+
+</html>
