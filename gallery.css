@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold
+  
 }
 
 body {
@@ -31,6 +31,7 @@ header {
 .txt-animado {
     font-size: 40px;
     font-weight: 500;
+    font-weight: bold
 }
 
 .txt-animado span::before {
@@ -96,6 +97,7 @@ footer {
     .txt-animado {
         font-size: 40px;
         font-weight: 100;
+        font-weight: bold
     }
 
 
